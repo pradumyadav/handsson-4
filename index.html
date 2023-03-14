@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Find the Product.</p>
+    <p>const Find_Prod = (array, N) => </p>
+  <p>{ </p>
+ <p> let ans = 1;</p>
+ <p> for(let index=0;index<N;index++){</p>
+ <p> ans = ans*array[index];</p>
+          <p>}</p>
+           <p> return ans; </p>
+    <p>};</p>        
+     <p>Even Odd</p>
+      <p>const findEvenOdd = (N, Arr) => </p>
+       <p>{</p>
+        <p>let even=0;</p>
+         <p>let odd=0;</p>
+          <p> for (let i=0;i<N;i++){</p>
+           <p> if(Arr[i]%2===0){</p>
+            <p>even+=Arr[i];</p>
+             <p>}</p>
+              <p> else {</p>
+               <p>odd+=Arr[i];</p>
+                <p>}</p>
+                 <p>}</p>
+                  <p>let B=[even,odd]</p>
+                   <p> return B;</p>
+                    <p>};</p>
+                     <p>Increment the Array Elements</p>
+                      <p>const Inc_Arr = (array,N) =></p>
+                       <p>{</p>
+                        <p>let i=0;</p>
+                         <p>let result=[];</p>
+                          <p>while(i<N){</p>
+                           <p> result.push(array[i]+1);</p>
+                            <p>  i++;</p>
+                             <p>}</p>
+                              <p>console.log(...result)</p>
+                               <p>};</p>
+                                <p>Pass or Fail</p>
+                                 <p>const isAllPass = (N, Arr) => </p>
+                                  <p>{</p>
+                                   <p> let pass =[]</p>
+                                    <p> for(i=0; i<N; i++){</p>
+                                     <p> if(Arr[i]<32){</p>
+                                      <p>return "NO"</p>
+                                       <p>}</p>
+                                        <p>}</p>
+                                         <p> return "YES"</p>
+                                          <p>};</p> 
+                                          <p>Unique Color Shirt</p>
+                                          <p>function Unique_Shirts (arr,N) {</p>
+                                          <p>let freq=[];</p>
+                                          <p>for(let i=0;i<1001;i++){</p>
+                                          <p>freq[i]=0;</p>
+                                          <p>}</p>
+                                          <p>for(let i=0;i<N;i++){</p>
+                                          <p> freq[arr[i]]++;</p>
+                                          <p>}</p>
+                                          <p>let ans=0;</p>
+                                          <p>for(let i=0;i<1001;i++){</p>
+                                          <p> if(freq[i]===1){</p>
+                                          <p> ans++;</p>
+                                          <p>}</p>
+                                          <p>}/p>
+                                          <p> return ans;</p>
+                                          <p>}</p>
+                                          <p>Birthday Game</p>
+                                          <p>function Birthday_Game(arr,D ,M) {</p>
+                                          <p>let N=arr.length;</p>
+                                          <p>let count=0;</p>
+                                          <p>for(let i=0;i<N-M+1;i++){</p>
+                                          <p>let sum=0;</p>
+                                          <p>for(let j=i;j<M+i;j++){</p>
+                                          <p> sum+=arr[j];</p>
+                                          <p>}</p>
+                                          <p>if(sum===D)</p>
+                                          <p>count++;</p>
+                                          <p>}</p>
+                                          <p>return count;</p>
+                                          <p>}</p>
+                                          <p></p>
+                                          <p></p>
+                                          <p></p>
+                                          <p></p>
+                                          <p></p>
+                                          <p></p>
+                                          <p></p>
+                                          <p></p>
+                                          <p></p>
+                                          <p></p>
+                                          <p></p>
+
+</body>
+</html>
